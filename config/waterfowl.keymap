@@ -49,7 +49,7 @@
  * |------+------+------+------+------|                      |------+------+------+------+------|
  * |      |      |      |      |      |                      |      |      |      |      |      |
  * |------+------+------+------+------|  ,-----.    ,-----.  |------+------+------+------+------|
- * |   `  |   ~  |  {   |  (   |  )   |  |  2  |    |  3  |  |   [  |  ]   |   }  |   -  |   =  |
+ * |   `  |   ~  |      |  (   |  )   |  |  2  |    |  3  |  |   [  |  ]   |   '  |   -  |   =  |
  * `----------------------------------'  `-----'    `-----'  `----------------------------------'
  *          ,-----.   ,--------------------.            ,--------------------.   ,-----.
  *          |  1  |   | DEL | SPACE | TAB  |            |  ESC  | BS | ENTER |   |  4  |
@@ -58,7 +58,7 @@
             bindings = <
     &kp N1      &kp N2   &kp N3      &kp N4   &kp N5                  &kp N6    &kp N7  &kp N8      &kp N9      &kp N0
     &trans    &trans    &trans    &trans   &trans                 &trans   &trans  &trans      &trans      &trans
-    &kp GRAVE      &kp TILDE      &kp LBRC     &kp LPAR      &kp RPAR                  &kp LBKT      &kp RBKT  &kp RBRC      &kp MINUS      &kp EQUAL
+    &kp GRAVE      &kp TILDE      &empty     &kp LPAR      &kp RPAR                  &kp LBKT      &kp RBKT  &kp SINGLE_QUOTE      &kp MINUS      &kp EQUAL
     &kp N1      &lt 3 DEL   &lt 1 SPACE &kp TAB     &kp N2          &kp N3  &kp ESC     &lt 2 BSPC    &lt 4 RET   &kp N4
             >;
 
