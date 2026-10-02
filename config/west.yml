@@ -7,16 +7,21 @@ manifest:
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     # --- nice-view: https://github.com/mctechnology17/zmk-nice-oled ---
-    - name: m165437
-      url-base: https://github.com/M165437
+    # - name: m165437
+    #   url-base: https://github.com/M165437
+    - name: dsifry
+      url-base: https://github.com/dsifry
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
     # --- nice-view ---
-    - name: nice-view-gem
-      remote: m165437
+    # - name: nice-view-gem
+    #   remote: m165437
+    #   revision: main
+    - name: nice-view-mod
+      remote: dsifry
       revision: main
   self:
     path: config
