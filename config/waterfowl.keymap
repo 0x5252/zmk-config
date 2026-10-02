@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         combo_toggle_layer_5 {
-            key-positions = <33 34 37 38>; // Replace with your 4 key positions
+            key-positions = <32 33 36 37>; // Replace with your 4 key positions
             bindings = <&tog 5>;
             timeout-ms = <50>;
             require-prior-idle-ms = <150>;
